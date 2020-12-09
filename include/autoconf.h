@@ -106,7 +106,7 @@
 
 
 
-	/* #define CONFIG_CONCURRENT_MODE */
+	#define CONFIG_CONCURRENT_MODE 1
 	#ifdef CONFIG_CONCURRENT_MODE
 		#define CONFIG_RUNTIME_PORT_SWITCH
 
@@ -322,7 +322,7 @@
 /*
  * Debug Related Config
  */
-#define DBG	1
+#define DBG	0
 
 #define CONFIG_PROC_DEBUG
 
